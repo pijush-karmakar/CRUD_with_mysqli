@@ -1,0 +1,138 @@
+form {
+  background: -webkit-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+  background: -moz-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+  background: linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+ 
+  position: relative;
+  width: 440px;
+  height:450px;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  line-height:30px;
+  font-weight: bold;
+  color: #09C;
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 40px;
+  border: 1px solid #999;
+  border: inset 1px solid #333;
+   margin:0 auto; 
+   margin-top:2%;    
+  -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+input {
+
+  height: 42px;
+  width: 100%;
+  display: block;
+  border: 1px solid #999;
+  -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+
+input[type="submit"] {
+    margin-top: 30px;
+    width: 28%;
+}
+a:hover{
+  text-decoration: none;
+}
+table {
+color: #333; /* Lighten up font color */
+font-family: Helvetica, Arial, sans-serif; /* Nicer font */
+border-collapse:
+collapse; border-spacing: 0;
+width:80%;
+margin:0 auto;
+
+
+}
+
+td, th { border: 1px solid #CCC;
+         padding: 10px 16px;
+         height:40px;
+        text-align: center;
+
+  } /* Make cells a bit taller */
+
+th {
+background: #F3F3F3; /* Light grey background */
+font-weight: bold; /* Make sure they're bold */
+}
+
+td {
+background: #FAFAFA; /* Lighter grey background */
+ /* Center our text */
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    display: inline-block;
+    list-style: outside none none;
+}
+ul li a {
+    background: #ddd none repeat scroll 0 0;
+    color: #222;
+    float: left;
+    margin: 5px 10px 30px;
+    padding: 10px 16px;
+    text-decoration: none;
+    transition: all 0.5s ease 0s;
+}
+ul li a:hover {
+    background: #333 none repeat scroll 0 0;
+    color: #fff;
+}
+
+    h1 {
+     background: #ddd none repeat scroll 0 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 50px auto;
+    padding: 14px 40px;
+    text-align: center;
+    width: 30%;
+}
+
+
+.delete {
+    text-align: center;
+}
+
+
+.succes {
+      background:#ddd;
+       height: 250px;
+      margin:0 auto;
+      text-align: center;
+      width: 40%;
+}
+.succes h3 {
+  font-size:40px;
+  color: #596;
+  padding:40px;
+}
+.succes a {
+    color: #fff;
+    background:#596; 
+    font-size: 18px;
+    padding:9px 12px;
+}
+
+.index {
+    margin: 0 auto;
+    width: 450px;
+}
+.reset {
+    margin-top: 30px;
+    width: 25%;
+}
